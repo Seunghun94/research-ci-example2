@@ -1,5 +1,7 @@
 def hellowworld(a):
-    print(f"Hellow World! {a}!")
+    msg = f"Hellow World! {a}!"
+    print(msg)
+    return msg
 
 
 if __name__ == "__main__":
